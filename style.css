@@ -1,0 +1,83 @@
+body {
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 60%;
+    padding: 15px;
+    
+
+}
+
+.title {
+    display: flex;
+    font-weight: bold;
+    margin: 0px;
+    
+    background-color: white;
+}
+
+.message {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.button-container {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.header-left {
+    display: flex;
+    height: 10px;
+    align-items: center;
+    
+    
+}
+
+.header-right {
+ background-color: white;
+
+}
+
+img {
+    display: flex;
+    width: 30px;
+    border-radius: 20px;
+}
